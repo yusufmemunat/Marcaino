@@ -23,12 +23,15 @@
     align-items: center;
 }
 
+body{
+    background-color:#17304A ;
+}
 
 .one{
     text-decoration: underline;
     text-align: center;
     font-weight: 500;
-    background-color: white;
+    background-color: #17304A;
     border-bottom: 1px solid rgba(0, 0, 0, 0.158);
     padding-bottom: 6px;
 }
@@ -100,25 +103,26 @@
     font-family: "Rouge Script", cursive;
     font-size: 40px;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgba(0, 0, 0, 0.39);
 }
 
 .eight{
     font-family: "Bona Nova SC", serif;
     font-size: 70px;
     font-weight: 60;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgba(212, 20, 20, 0.692);
 }
 
 .nine{
     font-family: "Bona Nova SC", serif;
-    color: rgba(0, 0, 0, 0.637);
+    color: rgba(#17304A);
     font-size: 60px;
 }
 
 .ten{
-    font-family: "Poppins", serif;
+    /* font-family: "Poppins", serif; */
    font-size: 20px;
+   font-family: "Bona Nova SC", serif;
    font-weight: 300; 
    font-weight: 500;
 }
