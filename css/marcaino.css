@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Redressed&family=Rouge+Script&display=swap');
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.one{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 500;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.158);
+    padding-bottom: 6px;
+}
+
+.two{
+    background-color: white;
+}
+
+.three{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 12px;
+    padding-left: 20px;
+}
+
+.two ul{
+    list-style: none;
+}
+
+
+.two ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+} 
+
+.four{
+    padding-left: 200px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    font-size: medium;
+}
+
+.five{
+    font-size: small;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    text-decoration: underline;
+    padding-left:8px ;
+}
+
+.container {
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.six{
+    height: 500px;
+    background-image: url(../Early-img.avif);
+    background-size: contain;
+    background-position: right center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.six div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seven{
+    font-family: "Rouge Script", cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.eight{
+    font-family: "Bona Nova SC", serif;
+    font-size: 70px;
+    font-weight: 60;
+    color: rgba(0, 0, 0, 0.637);
+}
+
+.nine{
+    font-family: "Bona Nova SC", serif;
+    color: rgba(0, 0, 0, 0.637);
+    font-size: 60px;
+}
+
+.ten{
+    font-family: "Poppins", serif;
+   font-size: 20px;
+   font-weight: 300; 
+   font-weight: 500;
+}
+
+.al{
+    width: 350px; 
+    justify-content: center;
+}
+
+
+.next {
+    margin-top: 190px;
+    color: rgba(0, 0, 0, 0.637);
+    margin-left: 500px;
+    font-size: 60px;
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+}
+
+.total{
+    color: rgba(0, 0, 0, 0.637);
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-size: 13px;
+    width: 87%;
+    display: flex;
+    row-gap: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}
+
+.img{
+    width: 387px;
+}
+.total div h3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 10px 30px;
+    letter-spacing: 7px;
+}
+
+.total div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.girl{
+    width: 1270px;
+    margin-left: 43px;
+    margin-top: 100px;
+}
+
+
+.extra{
+    font-family: "Rouge Script", cursive;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.637);
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+#total2{
+    color: rgba(0, 0, 0, 0.637);
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-size: 13px;
+    width: 87%;
+    display: flex;
+    row-gap: 25px;
+    column-gap: 4px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.img-2{
+    width: 290px;
+}
+#total2 div p{
+    font-weight: 500;
+}
+
+.footer {
+    margin: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-column {
+    flex: 90;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  
